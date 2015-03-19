@@ -1,0 +1,390 @@
+/*  ----------------------------  General  ---------------------------------  */
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: none;
+    background-color: #FFF;
+    color: #000;
+    font-family: Montserrat;
+}
+.widget-title, .widgettitle, .entry-thumb, .author-name, .site-header, 
+.page-header, blockquote {
+    border: 0;
+}
+.alignright {
+    margin: 0;
+}
+.site-content {
+    padding: 20px 0;
+    background: #FFF;
+}
+.widget li:before {
+    content: "";
+}
+/*  ------------------------------------------------------------------------  */
+
+/*  ----------------------------  Top Header  ------------------------------  */
+#fixed_menu {
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    max-width: 1192px;
+    padding: 10px;
+    border-bottom: 1px solid #E1E1E1;
+    background: #FFF;
+}
+#fixed_menu #top_leaderboard {
+   display: none;
+   float: left;
+}
+#fixed_menu ul {
+    float: left;
+    margin: 0;
+    list-style: none;
+}
+#fixed_menu #top_navigation li:not(.active) {
+    display: none;
+}
+#fixed_menu a {
+    color: #000;
+}
+#fixed_menu img {
+    float: left;
+    margin-top: 5px;
+    margin-left: 8px;
+    cursor: pointer;
+}
+#fixed_menu ul#menu-main-menu {
+    margin-left: 20px;
+}
+#fixed_menu ul#menu-main-menu li {
+    float: left;
+    padding: 0px 15px 5px 15px;
+}
+.site-header, .site-content {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1198px;
+}
+.site-branding {
+    padding-top: 62px;
+    padding-bottom: 12px;
+    border-top: 1px solid #E1E1E1;
+    border-bottom: 1px solid #E1E1E1;
+}
+/*  ------------------------------------------------------------------------  */
+
+/*  -------------------------  Header Image  -------------------------------  */
+#header_container {
+    float: left;
+    padding: 10px 20px;
+    width: 100%;
+    background: #FFF;
+}
+.header_image {
+    float: left;
+}
+.header_image .widgettitle {
+    display: none;
+}
+#widget_sp_image-2 {
+    margin-top: 50px;
+}
+#widget_sp_image-4 {
+    float: right;
+    margin-top: 12px;
+}
+/*  ------------------------------------------------------------------------  */
+
+/*  -----------------------  Header Social Links  --------------------------  */
+.social_title {
+    margin-bottom: 5px;
+    padding-right: 12px;
+    text-align: right;
+    font-weight: bold;
+    font-size: 11px;
+}
+.social-navigation {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    display: block;
+    float: right;
+    margin-top: 90px;
+}
+.social-navigation li {
+    padding: 0 6px;
+}
+.social-navigation li a {
+    display: block;
+    width: 28px;
+    height: 28px;
+    background: red;
+}
+.social-navigation li a[href*="pinterest.com"] {
+    background: url('../images/icon_pinterest.png');
+}
+.social-navigation li a[href*="facebook.com"] {
+    background: url('../images/icon_facebook.png');
+}
+.social-navigation li a[href*="twitter.com"] {
+    background: url('../images/icon_twitter.png');
+}
+.social-navigation li a[href*="youtube.com"] {
+    background: url('../images/icon_youtube.png');
+}
+
+.social-widget a::before,
+.social-navigation li a::before {
+    content: '' !important;
+}
+/*  ------------------------------------------------------------------------  */
+
+/*  ----------------------------  Main Menu  -------------------------------  */
+#menu-main-menu li {
+    position: initial;
+    margin-right: -4px;
+    padding: 25px 15px 21px 15px;
+    transition: all 0.4s;
+}
+#menu-main-menu li a:hover {
+    color: #FFF;
+}
+#menu-main-menu li.menu-item-12 {
+    border-bottom: 4px solid #B00931;
+}
+#menu-main-menu li.menu-item-12:hover {
+    background-color: #B00931;
+}
+#menu-main-menu li.menu-item-13 {
+    border-bottom: 4px solid #E31838;
+}
+#menu-main-menu li.menu-item-13:hover {
+    background-color: #E31838;
+}
+#menu-main-menu li.menu-item-14 {
+    border-bottom: 4px solid #F37021;
+}
+#menu-main-menu li.menu-item-14:hover {
+    background-color: #F37021;
+}
+#menu-main-menu li.menu-item-15 {
+    border-bottom: 4px solid #EFAE13;
+}
+#menu-main-menu li.menu-item-15:hover {
+    background-color: #EFAE13;
+}
+#menu-main-menu li.menu-item-16 {
+    border-bottom: 4px solid #009A49;
+}
+#menu-main-menu li.menu-item-16:hover {
+    background-color: #009A49;
+}
+#menu-main-menu li.menu-item-17 {
+    border-bottom: 4px solid #00AAAA;
+}
+#menu-main-menu li.menu-item-17:hover {
+    background-color: #00AAAA;
+}
+#menu-main-menu li.menu-item-18 {
+    border-bottom: 4px solid #0094D0;
+}
+#menu-main-menu li.menu-item-18:hover {
+    background-color: #0094D0;
+}
+#menu-main-menu li.menu-item-19 {
+    border-bottom: 4px solid #576AB2;
+}
+#menu-main-menu li.menu-item-19:hover {
+    background-color: #576AB2;
+}
+#menu-main-menu li.menu-item-20 {
+    border-bottom: 4px solid #004A6E;
+}
+#menu-main-menu li.menu-item-20:hover {
+    background-color: #004A6E;
+}
+#menu-main-menu li.menu-item-21 {
+    border-bottom: 4px solid #550F7D;
+}
+#menu-main-menu li.menu-item-21:hover {
+    background-color: #550F7D;
+}
+
+/*  submenu  */
+#menu-main-menu .sub-menu {
+    width: 100%;
+    overflow: hidden;
+}
+#menu-main-menu .sub-menu li {
+    float: left;
+    display: inline-block;
+    padding-bottom: 10000px;
+    margin-bottom: -10000px;
+    width: 20.5%;
+    text-align: center;
+}
+#menu-main-menu .sub-menu span {
+    display: inline-block;
+    margin-left: 25px;
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    background: #000;
+    line-height: 70px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 22px;
+    font-family: "Montserrat",sans-serif;
+    font-weight: 400;
+    color: #fff;
+}
+#menu-main-menu .sub-menu li:first-child {
+    width: 18%;
+    text-align: left;
+}
+#menu-main-menu .sub-menu li:hover {
+    background: #ccc;
+}
+#menu-main-menu .sub-menu li:first-child:hover {
+    background: none;
+}
+#menu-main-menu .sub-menu li a {
+    display: inline-block;
+    width: auto;
+    text-align: center;
+    color: #000 !important;
+}
+#menu-main-menu .sub-menu li:hover a {
+    color: #FFF !important;
+}
+.main-navigation ul ul li {
+    border-bottom: 0;
+}
+
+/* search icon */
+#icon_search {
+    width: 16px;
+    height: 16px;
+    background: url('../images/icon_search.jpg');
+}
+.site-navigation > .container {
+    position: relative;
+}
+#search_form {
+    position: absolute;
+    top: 18px;
+    right: 10px;
+}
+#search_form > form {
+    display: none;
+    float: left;
+    margin-right: 10px;
+}
+#search_form > #icon_search {
+    float: right;
+    margin-top: 6px;
+    cursor: pointer;
+}
+/*  ------------------------------------------------------------------------  */
+
+/*  -----------------------------  Slider  ---------------------------------  */
+#primary .metaslider .caption-wrap {
+    opacity: 0.8;
+}
+#primary .metaslider .caption p {
+    line-height: 60px;
+    font-family: AbrilFatface;
+    font-size: 50px;
+    color: #FFF;
+}
+#primary .metaslider .caption span {
+    line-height: 30px;
+    text-transform: uppercase;
+    font-family: MontserratLight;
+    font-size: 11px;
+}
+#primary .flex-control-nav {
+    right: 0;
+    bottom: 7px;
+    z-index: 7;
+    float: right;
+    width: auto;
+}
+#primary .flex-control-paging li a {
+    background: rgba(128, 128, 128, 0.4);
+}
+#primary .flex-control-paging li a.flex-active {
+    background: #FFF;
+}
+/*  ------------------------------------------------------------------------  */
+
+/*  -----------------------------  Footer  ---------------------------------  */
+footer {
+    font-size: 12px;
+}
+.footer-widget-area {
+    padding: 0;
+    box-shadow: none;
+}
+.footer-widget-area .widget {
+    margin: 20px 0 20px 20px;
+    padding: 0;
+}
+/* footer menu */
+.site-info {
+    padding: 0;
+    border: 0;
+}
+.site-info a {
+    color: #333333;
+}
+#menu-footer-menu {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    border-bottom: 1px solid #000;
+}
+#menu-footer-menu li {
+    display: inline-block;
+    margin: 0;
+    padding: 15px 28px;
+    text-transform: uppercase;
+}
+
+/* footer sidebar left */
+#sidebar-footer {
+    padding-bottom: 30px;
+}
+.footer_left {
+    border-right: 1px solid #666;
+}
+.footer_left .widget-title {
+    font-family: Abril Fatface;
+    font-size: 35px;
+}
+.footer_left .textwidget {
+    font-family: MontserratLight;
+    font-size: 12px;
+    color: #333;
+}
+.links_with_icons {
+    list-style-type: none;
+}
+.links_with_icons .link_with_icon {
+    display: inline-block;
+}
+
+/* footer sidebar right */
+.footer_right, .footer_right .widget-title {
+    font-family: MontserratBold;
+}
+.footer_right .tagcloud {
+    text-transform: uppercase;
+}
+.footer_right .tagcloud a {
+    padding: 5px 10px;
+}
+/*  ------------------------------------------------------------------------  */
