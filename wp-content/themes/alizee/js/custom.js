@@ -37,9 +37,7 @@ $(document).ready(function($) {
 	}
     });
     $(document).on('mouseleave', 'ul.sub-menu', function(){
-    //$('ul.sub-menu').mouseover(function(){
 	$('ul.sub-menu').hide();
-	//alert('click');
     });
     
     // search icon
@@ -58,5 +56,10 @@ $(document).ready(function($) {
 	} else {
 	    $(this).addClass('widget_most_view_cat');
 	}
+    });
+    
+    // button load more
+    $('#btn_load_more').click(function() {
+	alert('load more');
     });
 });
