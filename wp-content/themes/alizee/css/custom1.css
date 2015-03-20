@@ -1,0 +1,19 @@
+/*  --------------------------  Homepage Recent Post  ----------------------  */
+/*Mansonry*/
+.home .home-layout{ margin:0 -1.9%; width:auto !important;}
+.home .home-layout > article{ position:relative; float:left; display:inline-block; margin:0 1.9% 30px; width:46.2%; padding:0; border:none; box-shadow:none;}
+.home .home-layout > article.full{ float:none;width:98%;}
+.home .home-layout .entry-thumb{ margin:0;}
+.home-layout > article img.wp-post-image{ width:100%;}
+.home-layout > article .entry-thumb:hover img{ opacity:1;}
+.home-layout > article .posted-on{ display:none;}
+.home-layout > article .byline .fa-user{ display:none;}
+.home-layout > article .byline a{ color:#fff; font-size:11px;}
+.home-layout > article .post-content{position:absolute; bottom:0; left:0; width:100%; color:#fff; font-size:11px; font-weight:400;font-family:"Montserratlight",sans-serif; }
+.home-layout > article .entry-header{background: rgba(0,0,0,.6);  padding: 20px 4%; width:100%; color:#fff; font-size:11px; font-weight:400; display:none;}
+.home-layout > article .entry-title{font-family: 'Abril Fatface', cursive; font-weight:400; font-size:25px; line-height:30px; margin:0 0 10px; padding:0;}
+.home-layout > article .entry-title a{ color:#fff;font-weight:400; }
+.home-layout > article .cat-link{ text-transform:uppercase; color:#fff; display:inline-block; padding:3px 15px; margin-left:15px; margin-bottom:20px; font-family:"Montserratlight",sans-serif; font-weight:400; background:#9e0b0f; font-size:11px; position:relative; bottom:auto;}
+.home-layout > article:hover .cat-link{ margin-bottom:0;}
+.home-layout > article:hover .entry-header { display:block;}
+/*  ------------------------------------------------------------------------  */

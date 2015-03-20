@@ -43,7 +43,6 @@ get_header();
 </div>
 
 <div class="col-sm-4">
-    Sidebar
+    <?php get_sidebar(); ?>
 </div>
-<?php // get_sidebar(); ?>
 <?php get_footer(); ?>

@@ -22,6 +22,7 @@
 	<?php wp_head(); ?>
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_directory');?>/css/font_face.css">
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_directory');?>/css/custom.css">
+	<link rel="stylesheet" href="<?php bloginfo('stylesheet_directory');?>/css/custom1.css">
 	<script type="text/javascript" src="<?php bloginfo('stylesheet_directory');?>/js/custom.js">"></script>
     </head>
 
