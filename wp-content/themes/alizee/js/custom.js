@@ -49,4 +49,14 @@ $(document).ready(function($) {
     $('#search_form .search-field').focusout(function(){
 	$('#search_form form').hide();
     });
+    
+    // add class for sidebar on homepage
+    $('.col-sm-4 .widget-area .popular-posts').each(function() {
+	var title = $(this).find('.widget-title').text();
+	if (title.trim().toLowerCase() === 'hot list') {
+	    $(this).addClass('widget_hot_list');
+	} else {
+	    $(this).addClass('widget_most_view_cat');
+	}
+    });
 });
