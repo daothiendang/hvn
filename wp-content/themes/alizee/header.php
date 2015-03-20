@@ -38,8 +38,8 @@
 	    <?php endif; ?>
 		    <!--<div class="container">-->
 			<div id="fixed_menu">
-			    <a href="#" id="top_leaderboard">
-				Leader Board
+			    <a href="#" id="logo_link">
+				<img id="logo" src="<?php bloginfo('stylesheet_directory');?>/images/header_logo_weekly_review.png"/>
 			    </a>
 			    <ul id="top_navigation">
 				<li class="active"><a href="#">NEIGHBORHOOD</a></li>
@@ -47,7 +47,7 @@
 				<li><a href="#">NEIGHBORHOOD2</a></li>
 				<li><a href="#">NEIGHBORHOOD3</a></li>
 			    </ul>
-			    <img src="<?php bloginfo('stylesheet_directory');?>/images/icon_top_arrow.jpg"/>
+			    <img id="top_arrow" src="<?php bloginfo('stylesheet_directory');?>/images/icon_top_arrow.jpg"/>
 			</div>
 			<div class="site-branding">
 			    <?php if (get_theme_mod('site_logo')) : ?>
