@@ -37,6 +37,5 @@
 		<?php endif; ?>
 	    </header><!-- .entry-header -->
 	</div>
-</article>
-
-<?php endif; ?>	
+    </article>
+<?php endif; ?>
