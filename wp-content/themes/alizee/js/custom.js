@@ -53,10 +53,16 @@ $(document).ready(function($) {
 	var title = $(this).find('.widget-title').text();
 	if (title.trim().toLowerCase() === 'hot list') {
 	    $(this).addClass('widget_hot_list');
+	    var orderNumber = 0;
+	    $(this).find('ul li').each(function() {
+		orderNumber++;
+		$(this).find('a').first().prepend('<span class="host_list_order" style="width:100%;">' + orderNumber + '</span><br/>');
+	    });
 	} else {
 	    $(this).addClass('widget_most_view_cat');
 	}
     });
+    
     
     // button load more
     $('#btn_load_more').click(function() {

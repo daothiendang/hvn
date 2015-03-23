@@ -34,7 +34,6 @@ get_header();
 		    <?php $c++; ?>	
 		<?php endwhile; ?>
 	    </div>
-	    <div id="btn_load_more">Load more</div>
 	    <?php // alizee_paging_nav(); ?>
 
 	<?php else : ?>
